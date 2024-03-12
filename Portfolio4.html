@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <style>
+        body {
+            background-image: url('blur-background.jpg');
+            background-size: cover;
+            background-position: center;
+            filter: blur(0px);
+            height: 100%;
+        }
+        header, footer {
+            background-color: rgba(255, 255, 255, 0.5);
+            color: #333;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1, footer p {
+            margin: 0;
+        }
+        .container {
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.5);
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        }
+        .card {
+            border-radius: 15px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+        .card-content {
+            padding: 20px;
+        }
+        .card-action {
+            background-color: #333;
+            border-radius: 0 0 15px 15px;
+            padding: 10px 20px;
+        }
+        .btn {
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo">Developer Portfolio</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header>
+        <h1>Welcome to my Portfolio!</h1><br><br>
+    </header>
+
+    <div class="container" id="home">
+        <div class="row">
+            <div class="col s12">
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card-title">Home</span>
+                        <p>This is where I showcase my projects and skills.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container" id="about">
+        <div class="row">
+            <div class="col s12">
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card-title">About Me</span>
+                        <p>I'm a passionate developer with a keen interest in web development.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container" id="projects">
+        <div class="row">
+            <div class="col s12">
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card-title">Projects</span>
+                        <div class="row">
+                            <div class="col s6">
+                                <div class="card">
+                                    <div class="card-content">
+                                        <span class="card-title">Project 1</span>
+                                        <p>Description of project 1.</p>
+                                    </div>
+                                    <div class="card-action">
+                                        <a href="#" class="btn">View Project</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col s6">
+                                <div class="card">
+                                    <div class="card-content">
+                                        <span class="card-title">Project 2</span>
+                                        <p>Description of project 2.</p>
+                                    </div>
+                                    <div class="card-action">
+                                        <a href="#" class="btn">View Project</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container" id="skills">
+        <div class="row">
+            <div class="col s12">
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card-title">Skills</span>
+                        <ul>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>JavaScript</li>
+                            <li>React</li>
+                            <li>Node.js</li>
+                            <li>MySQL</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container" id="contact">
+        <div class="row">
+            <div class="col s12">
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card-title">Contact Me</span>
+                        <p>You can reach me at:</p>
+                        <ul>
+                            <li>Email: example@example.com</li>
+                            <li>Phone: 123-456-7890</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <footer>
+        <p>Contact me at example@example.com or 123-456-7890</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
